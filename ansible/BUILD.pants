@@ -1,0 +1,5 @@
+pex_binary(
+    name = "pex", 
+    entry_point = "ansible.cli.adhoc:main",
+)
+
