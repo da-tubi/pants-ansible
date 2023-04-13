@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pants run ansible:pex $@
+pants run ansible:pex -- $@
 
