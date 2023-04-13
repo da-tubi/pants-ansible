@@ -1,0 +1,15 @@
+[GLOBAL]
+pants_version = "2.15.0"
+
+backend_packages.add = [
+  "pants.backend.python",
+]
+
+[source]
+root_patterns = ["ansible"]
+
+
+[python]
+interpreter_constraints = ["==3.10.*"]
+enable_resolves = true
+

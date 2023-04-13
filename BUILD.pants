@@ -1,0 +1,5 @@
+# See https://www.pantsbuild.org/docs/python-third-party-dependencies for more info
+python_requirements(
+    name="requirements",
+)
+
